@@ -1,0 +1,12 @@
+# Instalar phpMyAdmin en laragon
+ir a la pagina https://www.phpmyadmin.net/downloads/
+
+seleciona la version que necesitas`para descargar
+- ejemplo `https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip`
+
+***Si la version que descargastes aparece un error de lenguaje es_US o se queda cargando y siempre pide el usuario revisa que***
+- la version de `php`, `mysql` y `nginx|apache` es compatible con `phpMyAdmin`.
+
+Descomprime el contenido el archivo zip en laragon ejemplo:
+- `C:\laragon\etc\apps`
+- renombra la carpeta el archivo comprimido `phpMyAdmin` `C:\laragon\etc\apps\phpMyAdmin`.
